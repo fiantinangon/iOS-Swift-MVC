@@ -1,0 +1,6 @@
+framework module Pods_iOS_Swift_MVCUITests {
+  umbrella header "Pods-iOS-Swift-MVCUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -113,12 +113,12 @@
 		6BB9725F1DA3A9CF00B2AA04 = {
 			isa = PBXGroup;
 			children = (
+				8A5E2779C475669DDE731FA6 /* Frameworks */,
+				2328376DF353B8AEA2D4801E /* Pods */,
+				6BB972691DA3A9D000B2AA04 /* Products */,
 				6BB9726A1DA3A9D000B2AA04 /* iOS-Swift-MVC */,
 				6BB9727F1DA3A9D000B2AA04 /* iOS-Swift-MVCTests */,
 				6BB9728A1DA3A9D000B2AA04 /* iOS-Swift-MVCUITests */,
-				6BB972691DA3A9D000B2AA04 /* Products */,
-				2328376DF353B8AEA2D4801E /* Pods */,
-				8A5E2779C475669DDE731FA6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,16 +135,15 @@
 		6BB9726A1DA3A9D000B2AA04 /* iOS-Swift-MVC */ = {
 			isa = PBXGroup;
 			children = (
+				6BCE8B7D1DA3ACEB0005ED83 /* Constants */,
+				6BCE8B7E1DA3ACF30005ED83 /* Controller */,
+				6BCE8B7F1DA3AD110005ED83 /* Model */,
+				6BCE8B7C1DA3ACE20005ED83 /* Service */,
 				6BB9726B1DA3A9D000B2AA04 /* AppDelegate.swift */,
-				6BB972991DA3AA2F00B2AA04 /* AFApiClient.swift */,
-				6BB9729A1DA3AA2F00B2AA04 /* MovieData.swift */,
-				6BB9729B1DA3AA2F00B2AA04 /* Services.swift */,
-				6BB9729C1DA3AA2F00B2AA04 /* URLS.swift */,
-				6BB9726D1DA3A9D000B2AA04 /* ViewController.swift */,
-				6BB9726F1DA3A9D000B2AA04 /* Main.storyboard */,
 				6BB972721DA3A9D000B2AA04 /* Assets.xcassets */,
-				6BB972741DA3A9D000B2AA04 /* LaunchScreen.storyboard */,
 				6BB972771DA3A9D000B2AA04 /* Info.plist */,
+				6BB972741DA3A9D000B2AA04 /* LaunchScreen.storyboard */,
+				6BB9726F1DA3A9D000B2AA04 /* Main.storyboard */,
 			);
 			path = "iOS-Swift-MVC";
 			sourceTree = "<group>";
@@ -152,8 +151,8 @@
 		6BB9727F1DA3A9D000B2AA04 /* iOS-Swift-MVCTests */ = {
 			isa = PBXGroup;
 			children = (
-				6BB972801DA3A9D000B2AA04 /* iOS_Swift_MVCTests.swift */,
 				6BB972821DA3A9D000B2AA04 /* Info.plist */,
+				6BB972801DA3A9D000B2AA04 /* iOS_Swift_MVCTests.swift */,
 			);
 			path = "iOS-Swift-MVCTests";
 			sourceTree = "<group>";
@@ -161,10 +160,43 @@
 		6BB9728A1DA3A9D000B2AA04 /* iOS-Swift-MVCUITests */ = {
 			isa = PBXGroup;
 			children = (
-				6BB9728B1DA3A9D000B2AA04 /* iOS_Swift_MVCUITests.swift */,
 				6BB9728D1DA3A9D000B2AA04 /* Info.plist */,
+				6BB9728B1DA3A9D000B2AA04 /* iOS_Swift_MVCUITests.swift */,
 			);
 			path = "iOS-Swift-MVCUITests";
+			sourceTree = "<group>";
+		};
+		6BCE8B7C1DA3ACE20005ED83 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				6BB972991DA3AA2F00B2AA04 /* AFApiClient.swift */,
+				6BB9729B1DA3AA2F00B2AA04 /* Services.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		6BCE8B7D1DA3ACEB0005ED83 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				6BB9729C1DA3AA2F00B2AA04 /* URLS.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		6BCE8B7E1DA3ACF30005ED83 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6BB9726D1DA3A9D000B2AA04 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6BCE8B7F1DA3AD110005ED83 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6BB9729A1DA3AA2F00B2AA04 /* MovieData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		8A5E2779C475669DDE731FA6 /* Frameworks */ = {
@@ -505,6 +537,7 @@
 				6BB972701DA3A9D000B2AA04 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		6BB972741DA3A9D000B2AA04 /* LaunchScreen.storyboard */ = {
@@ -513,6 +546,7 @@
 				6BB972751DA3A9D000B2AA04 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
